@@ -12,7 +12,6 @@
 		5D25AF0A127311A500E08795 /* JSONUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25AEFD127311A500E08795 /* JSONUnmarshaller.h */; };
 		5D25AF0B127311A500E08795 /* JSONUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25AEFE127311A500E08795 /* JSONUnmarshaller.m */; };
 		5D25AF0C127311A500E08795 /* Unmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25AEFF127311A500E08795 /* Unmarshaller.h */; };
-		5D25AF0D127311A500E08795 /* Unmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25AF00127311A500E08795 /* Unmarshaller.m */; };
 		5D25AF0E127311A500E08795 /* DesignTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25AF02127311A500E08795 /* DesignTesting.h */; };
 		5D25AF0F127311A500E08795 /* DesignTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25AF03127311A500E08795 /* DesignTesting.m */; };
 		5D25AF10127311A500E08795 /* Main.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25AF04127311A500E08795 /* Main.h */; };
@@ -49,7 +48,6 @@
 		5D25AEFD127311A500E08795 /* JSONUnmarshaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUnmarshaller.h; sourceTree = "<group>"; };
 		5D25AEFE127311A500E08795 /* JSONUnmarshaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONUnmarshaller.m; sourceTree = "<group>"; };
 		5D25AEFF127311A500E08795 /* Unmarshaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unmarshaller.h; sourceTree = "<group>"; };
-		5D25AF00127311A500E08795 /* Unmarshaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unmarshaller.m; sourceTree = "<group>"; };
 		5D25AF02127311A500E08795 /* DesignTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignTesting.h; sourceTree = "<group>"; };
 		5D25AF03127311A500E08795 /* DesignTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignTesting.m; sourceTree = "<group>"; };
 		5D25AF04127311A500E08795 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 				5D25AEFD127311A500E08795 /* JSONUnmarshaller.h */,
 				5D25AEFE127311A500E08795 /* JSONUnmarshaller.m */,
 				5D25AEFF127311A500E08795 /* Unmarshaller.h */,
-				5D25AF00127311A500E08795 /* Unmarshaller.m */,
 			);
 			path = serialize;
 			sourceTree = "<group>";
@@ -304,7 +301,6 @@
 				5DB1F45C12730FD1006E0583 /* SBJsonWriter.m in Sources */,
 				5D25AF09127311A500E08795 /* Request.m in Sources */,
 				5D25AF0B127311A500E08795 /* JSONUnmarshaller.m in Sources */,
-				5D25AF0D127311A500E08795 /* Unmarshaller.m in Sources */,
 				5D25AF0F127311A500E08795 /* DesignTesting.m in Sources */,
 				5D25AF11127311A500E08795 /* Main.m in Sources */,
 				5D25AF13127311A500E08795 /* Offer.m in Sources */,

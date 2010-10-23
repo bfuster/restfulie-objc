@@ -11,8 +11,25 @@
 
 @implementation Response
 
--(id) resource {
+@synthesize data;
+
+- (id) resource 
+{
 	return @"something";
 }
+
+- (id) deserialize
+{
+
+	NSLog(@"something %@", self.data);
+	
+}
+
+- (void) dealloc
+{
+	[data release];
+	[super dealloc];
+}
+
 
 @end

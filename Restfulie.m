@@ -12,7 +12,8 @@
 
 @implementation Restfulie
 
-+(Request *) at:(NSString *) url {
++ (Request *) at:(NSString *) url 
+{
 	return [[Request alloc] init];
 }
 

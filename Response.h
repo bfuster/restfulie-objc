@@ -11,7 +11,11 @@
 
 @interface Response : NSObject {
 
+	NSDictionary *data;
+	
 }
+
+@property (nonatomic, retain) NSDictionary *data;
 
 -(id) resource;
 

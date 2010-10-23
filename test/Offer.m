@@ -13,7 +13,8 @@
 
 @synthesize description;
 
--(void) dealloc {
+- (void) dealloc 
+{
 	[description release];
 	[super dealloc];
 }
