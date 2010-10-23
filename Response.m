@@ -11,7 +11,7 @@
 
 @implementation Response
 
--(id *) resource {
+-(id) resource {
 	return @"something";
 }
 

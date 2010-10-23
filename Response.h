@@ -13,6 +13,6 @@
 
 }
 
--(id *) resource;
+-(id) resource;
 
 @end

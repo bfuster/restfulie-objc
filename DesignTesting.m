@@ -13,7 +13,7 @@
 
 @implementation DesignTesting
 
-#if USE_APPLICATION_UNIT_TEST     // all code under test is in the iPhone Application
+#if USE_APPLICATION_UNIT_TEST
 
 - (void) testAppDelegate {
     
@@ -21,6 +21,7 @@
 	Response *response = [rest get];
 	
 	Offer *r = [response resource];
+	NSArray *rnow = [response resource];
 	
 	[rest release];
 }
