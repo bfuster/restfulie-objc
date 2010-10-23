@@ -4,6 +4,7 @@
 		activeBuildConfigurationName = Debug;
 		activeTarget = D2AAC0C605546C1D00DB518D /* restfulie-objc */;
 		addToTargets = (
+			D2AAC0C605546C1D00DB518D /* restfulie-objc */,
 		);
 		codeSenseManager = 5DB1F1E112726665006E0583 /* Code sense */;
 		perUserDictionary = {
@@ -139,6 +140,8 @@
 			5DB1F43812728E89006E0583 /* PBXTextBookmark */ = 5DB1F43812728E89006E0583 /* PBXTextBookmark */;
 			5DB1F43D12728ECC006E0583 /* PBXTextBookmark */ = 5DB1F43D12728ECC006E0583 /* PBXTextBookmark */;
 			5DB1F44012728EF5006E0583 /* PBXTextBookmark */ = 5DB1F44012728EF5006E0583 /* PBXTextBookmark */;
+			5DB1F44112730F50006E0583 /* PBXTextBookmark */ = 5DB1F44112730F50006E0583 /* PBXTextBookmark */;
+			5DB1F44212730F50006E0583 /* PBXTextBookmark */ = 5DB1F44212730F50006E0583 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5DB1F1E012726665006E0583 /* Source Control */;
 		userBookmarkGroup = 5DB1F1D212726647006E0583 /* PBXBookmarkGroup */;
@@ -204,9 +207,9 @@
 	};
 	5DB1F1ED12726C7C006E0583 /* Request.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1027, 845}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 858}}";
 			sepNavSelRange = "{565, 0}";
-			sepNavVisRange = "{269, 612}";
+			sepNavVisRange = "{252, 594}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
@@ -1215,6 +1218,26 @@
 		rType = 0;
 		vrLen = 612;
 		vrLoc = 269;
+	};
+	5DB1F44112730F50006E0583 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5DB1F1ED12726C7C006E0583 /* Request.m */;
+		name = "Request.m: 29";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 252;
+	};
+	5DB1F44212730F50006E0583 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5DB1F1ED12726C7C006E0583 /* Request.m */;
+		name = "Request.m: 29";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 252;
 	};
 	D2AAC0C605546C1D00DB518D /* restfulie-objc */ = {
 		activeExec = 0;
